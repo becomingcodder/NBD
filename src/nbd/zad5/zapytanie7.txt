@@ -1,0 +1,1 @@
+MATCH (p:Person)-[:WROTE]->(m:Movie)<-[:DIRECTED]-(p) RETURN p

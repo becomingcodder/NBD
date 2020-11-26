@@ -1,0 +1,1 @@
+MATCH (a:Person)-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(p:Person) where p.name="Hugo Weaving" RETURN a

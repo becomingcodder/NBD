@@ -1,0 +1,3 @@
+//Wszystkie filmy osób, które grały w Matrix
+//zakładam każdą relację osoby z filmem bo nie jest sprecyzowane
+MATCH (m:Movie)<-[]-(p:Person)-[:ACTED_IN]->(mplayed:Movie) WHERE m.title="The Matrix" RETURN mplayed

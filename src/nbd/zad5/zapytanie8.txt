@@ -1,0 +1,1 @@
+MATCH (p:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(p2:Person {name:"Keanu Reeves"}) return m
