@@ -1,0 +1,4 @@
+MATCH path= ((a1 :Aiport{name:"LAX"})-[f:Flight*..2]->(a2:Airport))
+WITH a1, a2, REDUCE(price=0, n IN f | price + n.price) as P
+WHERE P < 3000
+RETURN DISTINCT a2

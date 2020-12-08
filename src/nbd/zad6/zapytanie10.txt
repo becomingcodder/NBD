@@ -1,0 +1,6 @@
+MATCH path=(a1: Airport)<-[:ORIGIN]-(f1:Flight)-[:DESTINATION]->(a2:Airport)<-[:ORIGIN]-(f2:Flight)-[:DESTINATION]->(a3:Airport), (f1)-[:ASSIGN]-(t1:Ticket), (f2)-[:ASSIGN]-(t2:Ticket)
+WHERE a1 <> a3
+WITH path, t1.price + t2.price as totalPrice
+return path, totalPrice
+ORDER BY totalPrice
+LIMIT 1

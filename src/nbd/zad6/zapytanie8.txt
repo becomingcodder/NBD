@@ -1,0 +1,6 @@
+MATCH path= ((a1:Aiport{name:"LAX"})-[r:Flight*..3{class:"business"}]->(a2:Aiport{name:"DAY"}))
+WITH a1, a2,
+REDUCE(price=0, n IN r | price + n.price) as P
+RETURN a1, a2, P
+ORDER BY P
+LIMIT 1

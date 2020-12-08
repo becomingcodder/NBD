@@ -1,0 +1,6 @@
+MATCH (a1:Aiport{ name:"LAX" }), (a2 :Aiport{name:'DAY'}),
+con = (a1)-[:CONNECTION*]->(a2)
+WITH con, relationships(con) AS y
+RETURN con,
+REDUCE(p = 0, y IN y | p + y.price) AS x
+ORDER BY x

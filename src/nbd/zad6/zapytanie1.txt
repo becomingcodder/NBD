@@ -1,0 +1,4 @@
+MATCH (t1 {name:"Darjeeling"}), (t2 {name: "Sandakphu"})
+WITH t1, t2
+MATCH path = ShortestPath((t1)-[*]-(t2))
+RETURN path
