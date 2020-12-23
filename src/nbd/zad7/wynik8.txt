@@ -1,0 +1,13 @@
+HTTP/1.1 201 Created
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvpe5kCMLEUpkzGNlmMYXcZMvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/S8901/keys/QsiaDxq2ewSkKut6ICBGhphCQt4
+Link: </buckets/S8901>; rel="up"
+Last-Modified: Wed, 23 Dec 2020 18:55:18 GMT
+ETag: "2lXw9J9MuLQ4RjsUbMvOdy"
+Date: Wed, 23 Dec 2020 18:55:18 GMT
+Content-Type: application/json
+Content-Length: 12
+
+{name: Jack}

@@ -1,0 +1,64 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvpe5kBUCEUpkz2NlSHoVfpMvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/S8901>; rel="up"
+Last-Modified: Wed, 23 Dec 2020 16:20:50 GMT
+ETag: "5kAOZqBKjmwNlR3hLNjKuq"
+Date: Wed, 23 Dec 2020 16:20:50 GMT
+Content-Type: application/json
+Content-Length: 70
+
+{name: Ralph,surname: Anderson, age: 65, height: 169, isMarried: true}
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvpe5HCcEEUpkzGNlOPk6/CZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/S8901>; rel="up"
+Last-Modified: Wed, 23 Dec 2020 16:26:49 GMT
+ETag: "4kR1OTpz8FmbizLfs140EN"
+Date: Wed, 23 Dec 2020 16:26:49 GMT
+Content-Type: application/json
+Content-Length: 70
+
+{name: Cesar,surname: Stephan, age: 22, height: 170, isMarried: false}
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvpe5HCcEZDNlMCUy5rEydL4Jv8mXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/S8901>; rel="up"
+Last-Modified: Wed, 23 Dec 2020 16:30:01 GMT
+ETag: "75IYGkcqFI2O9OtS8C4J0Q"
+Date: Wed, 23 Dec 2020 16:30:01 GMT
+Content-Type: application/json
+Content-Length: 70
+
+{name: Amanda, surname: Justis, age: 73, height: 165, isMarried: true}
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvpe5HO8LEUpkzGNl+P4j/CZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/S8901>; rel="up"
+Last-Modified: Wed, 23 Dec 2020 17:23:03 GMT
+ETag: "5wkCBsih10rCojLgg7oUr2"
+Date: Wed, 23 Dec 2020 17:23:03 GMT
+Content-Type: application/json
+Content-Length: 67
+
+{name: Gene, surname: Casey, age: 43, height: 171, isMarried: true}
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvpe5UvoZIpTImMfKcOZn+E2+LAA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/S8901>; rel="up"
+Last-Modified: Wed, 23 Dec 2020 17:26:36 GMT
+ETag: "2fWbLCjGcuByl6ObjWPal0"
+Date: Wed, 23 Dec 2020 17:26:36 GMT
+Content-Type: application/json
+Content-Length: 72
+
+{name: Carolyn, surname: Morgan, age: 50, height: 153, isMarried: false}

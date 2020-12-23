@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvpe5kBUCEUpkz2NlSHoVfpMvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/S8901>; rel="up"
+Last-Modified: Wed, 23 Dec 2020 16:20:50 GMT
+ETag: "5kAOZqBKjmwNlR3hLNjKuq"
+Date: Wed, 23 Dec 2020 16:21:23 GMT
+Content-Type: application/json
+Content-Length: 70
+
+{name: Ralph,surname: Anderson, age: 65, height: 169, isMarried: true}

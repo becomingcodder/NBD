@@ -1,0 +1,16 @@
+0. riak-admin bucket-type create S8901 '{"props":{}}'
+1. curl -i -XPUT -H "Content-Type: application/json" -d "{"name": "Ralph",	"surname": "Anderson", "age": 65, "height": 169, "isMarried": true}" http://localhost:8098/buckets/S8901/keys/Anderson?returnbody=true
+   curl -i -XPUT -H "Content-Type: application/json" -d "{"name": "Cesar",	"surname": "Stephan", "age": 22, "height": 170, "isMarried": false}" http://localhost:8098/buckets/S8901/keys/Stephan?returnbody=true
+   curl -i -XPUT -H "Content-Type: application/json" -d "{"name": "Amanda", "surname": "Justis", "age": 73, "height": 165, "isMarried": true}" http://localhost:8098/buckets/S8901/keys/Justis?returnbody=true
+   curl -i -XPUT -H "Content-Type: application/json" -d "{"name": "Gene", "surname": "Casey", "age": 43, "height": 171, "isMarried": true}" http://localhost:8098/buckets/S8901/keys/Casey?returnbody=true
+   curl -i -XPUT -H "Content-Type: application/json" -d "{"name": "Carolyn", "surname": "Morgan", "age": 50, "height": 153, "isMarried": false}" http://localhost:8098/buckets/S8901/keys/Morgan?returnbody=true
+
+2. curl -i http://localhost:8098/buckets/S8901/keys/Anderson
+3. curl -i -XPUT -H "Content-Type: application/json" -d "{"name": "Carolyn", "surname": "Morgan", "age": 50, "height": 153, "isMarried": false, "weight": 55}" http://localhost:8098/buckets/S8901/keys/Morgan?returnbody=true
+4. curl -i -XPUT -H "Content-Type: application/json" -d "{"name": "Carolyn", "surname": "Morgan", "age": 50, "height": 153, "isMarried": false}" http://localhost:8098/buckets/S8901/keys/Morgan?returnbody=true
+5. curl -i -XPUT -H "Content-Type: application/json" -d "{"name": "Carolyn", "surname": "Morgan", "age": 50, "height": 153, "isMarried": true}" http://localhost:8098/buckets/S8901/keys/Morgan?returnbody=true
+6. curl -i -XDELETE http://localhost:8098/buckets/S8901/keys/Morgan
+7. curl -i http://localhost:8098/buckets/S8901/keys/Morgan
+8. curl -i -XPOST -H "Content-Type: application/json" -d "{"name": "Jack"}" http://localhost:8098/buckets/S8901/keys/?returnbody=true
+9. curl -i http://localhost:8098/buckets/S8901/keys/QsiaDxq2ewSkKut6ICBGhphCQt4
+10. curl -i -XDELETE http://localhost:8098/buckets/S8901/keys/QsiaDxq2ewSkKut6ICBGhphCQt4

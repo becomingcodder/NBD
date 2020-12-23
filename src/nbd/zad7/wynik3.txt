@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvpe5UvoZIpTIlMfKcIMp4iZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/S8901>; rel="up"
+Last-Modified: Wed, 23 Dec 2020 18:05:12 GMT
+ETag: "Q8A7M2y3Gy5LXLpweuCNC"
+Date: Wed, 23 Dec 2020 18:05:12 GMT
+Content-Type: application/json
+Content-Length: 84
+
+{name: Carolyn, surname: Morgan, age: 50, height: 153, isMarried: false, weight: 55}
